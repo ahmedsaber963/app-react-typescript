@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/style.css';
 
 interface Props {
-  message?: string;
+  message: string;
 }
 const App = ({ message }: Props): React.ReactElement => {
   return (

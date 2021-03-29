@@ -12,7 +12,7 @@ if (process.env.NODE_ENV === 'development') {
 ReactDOM.render(
   <React.StrictMode>
     <DefaultErrorBoundary>
-      <App message={'Hi from react boilerplat'} />
+      <App message="Hi from boilerplat" />
     </DefaultErrorBoundary>
   </React.StrictMode>,
   document.getElementById('app')

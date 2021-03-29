@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.prod.js",
-    "dev": "webpack serve --open --config webpack.config.dev.js",
+    "build": "npm run lint && webpack --config webpack.config.prod.js",
+    "dev": "npm run lint && webpack serve --open --config webpack.config.dev.js",
     "dev:hot": "npm run dev -- --hot",
     "test": "jest",
     "format": "pretty-quick",
