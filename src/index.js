@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import 'core-js/stable';
 import 'regenerator-runtime';
 import App from './App';
-import DefaultErrorBoundary from './DefaultErrorBoundary';
+import DefaultErrorBoundary from './error/DefaultErrorBoundary';
 
 if (process.env.NODE_ENV === 'development') {
   const axe = require('react-axe');

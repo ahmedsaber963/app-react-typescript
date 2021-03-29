@@ -1,8 +1,16 @@
 import React from 'react';
-import './style.css';
+import './styles/style.css';
 
-type AppProps = { message: string };
-
-const App: React.SFC<AppProps> = ({ message }) => <div>{message}</div>;
+interface Props {
+  message?: string;
+}
+const App = ({ message }: Props): React.ReactElement => {
+  return (
+    <div>
+      <img src="public/assets/blue.png" alt="blue"></img>
+      {message}
+    </div>
+  );
+};
 
 export default App;
